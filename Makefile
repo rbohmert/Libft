@@ -6,7 +6,7 @@
 #    By: rbohmert <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2015/11/27 11:23:48 by rbohmert          #+#    #+#              #
-#    Updated: 2016/02/20 20:36:43 by rbohmert         ###   ########.fr        #
+#    Updated: 2016/03/20 20:29:59 by rbohmert         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -26,7 +26,7 @@ SRC = ft_atoi.c ft_bzero.c ft_isalnum.c ft_isalpha.c ft_isascii.c \
 	  ft_strstr.c ft_strsub.c ft_strtrim.c ft_tolower.c ft_toupper.c \
 	  ft_strsplit.c ft_itoa.c ft_lstnew.c ft_lstdelone.c ft_lstdel.c \
 	  ft_lstadd.c ft_lstiter.c ft_lstmap.c ft_lstat.c ft_push_back.c \
-	  ft_push_front.c ft_create_elem.c get_next_line.c
+	  ft_push_front.c ft_create_elem.c ft_itoa_base.c get_next_line.c
 
 OBJ = $(SRC:.c=.o)
 
